@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personnel : informatique, administration système, réseaux et maintenance.">
+    <title>Mon Portfolio | Informatique & Réseaux</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#accueil" class="logo">Mon<span>Portfolio.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Ouvrir le menu" aria-expanded="false"
+                    aria-controls="navLinks">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact" class="nav-contact">Contact</a></li>   
+                <a href="documents/CV-Josue-TIGO.pdf" download class="btn btn-primary">
+                    Télécharger mon CV
+                </a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="accueil">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">BIENVENUE SUR MON PORTFOLIO</p>
+                    <h1>Bonjour, je suis <span>Josué TIGO</span></h1>
+                    <h2>Informatique · Réseaux · Administration système</h2>
+                    <p class="hero-description">
+                        Passionné par les systèmes informatiques,le développement, les réseaux
+                        et la maintenance, je développe mes compétences pour
+                        concevoir, administrer et sécuriser des infrastructures
+                        informatiques fiables.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projets" class="btn btn-primary">Découvrir mes projets</a>
+                        <a href="#contact" class="btn btn-outline">Me contacter</a>
+                    </div>
+
+                    <div class="hero-tags">
+                        <span>Administration système</span>
+                        <span>Réseaux</span>
+                        <span>Maintenance</span>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                   <div class="profile-circle">
+                        <img src="images/josue.png" alt="Photo de profil de Josué TIGO">
+                   </div>
+                    <p class="profile-label">MON PROFIL</p>
+                    <h3>Technicien informatique</h3>
+                    <p>Systèmes, réseaux et solutions informatiques</p>
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Portfolio personnel
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about" id="apropos">
+            <div class="container">
+                <p class="eyebrow">QUI SUIS-JE ?</p>
+                <h2 class="section-title">À propos de moi</h2>
+
+                <div class="about-grid">
+                    <div>
+                        <h3>Un profil orienté vers les infrastructures IT</h3>
+                        <p>
+                            Je suis titulaire d'un Diplôme de Technicien en
+                            Informatique et d'une Licence en Systèmes
+                            Informatiques et Logiciels. Je m'intéresse
+                            particulièrement à l'administration des systèmes
+                            d'information, aux réseaux et à la maintenance
+                            informatique.
+                        </p>
+                        <p>
+                            Mon objectif est de renforcer mes compétences
+                            techniques, de résoudre des problèmes informatiques
+                            et de contribuer au bon fonctionnement des systèmes
+                            d'information d'une organisation.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Informations</h3>
+                        <p><strong>Domaine :</strong> Informatique</p>
+                        <p><strong>Spécialités :</strong> Systèmes et réseaux</p>
+                        <p><strong>Intérêts :</strong> Sécurité, infrastructure IT</p>
+                        <p><strong>Objectif :</strong> Évoluer en administration système</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="competences">
+            <div class="container">
+                <p class="eyebrow">MON SAVOIR-FAIRE</p>
+                <h2 class="section-title">Mes compétences</h2>
+                <p class="section-intro">
+                    Voici les domaines informatiques que je pratique ou que
+                    je développe. Adapte cette liste à ton niveau réel.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">01</div>
+                        <h3>Réseaux informatiques</h3>
+                        <p>Adressage IP, sous-réseaux, VLAN, routage et dépannage réseau.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">02</div>
+                        <h3>Administration système</h3>
+                        <p>Windows, Linux, comptes utilisateurs, services et serveurs.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">03</div>
+                        <h3>Maintenance informatique</h3>
+                        <p>Diagnostic matériel, installation de logiciels et assistance aux utilisateurs.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">04</div>
+                        <h3>Sécurité informatique</h3>
+                        <p>Gestion des accès, mises à jour, sauvegardes et bonnes pratiques de sécurité.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">05</div>
+                        <h3>Outils et services</h3>
+                        <p>Active Directory, SSH, serveurs web et supervision selon les besoins.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">06</div>
+                        <h3>Développement web</h3>
+                        <p>HTML, CSS et JavaScript pour réaliser des interfaces web.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projets">
+            <div class="container">
+                <p class="eyebrow">MES RÉALISATIONS</p>
+                <h2 class="section-title">Mes projets</h2>
+                <p class="section-intro">
+                    Quelques exemples de projets que je peux présenter dans
+                    mon portfolio. Remplace-les par tes réalisations réelles.
+                </p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-number">PROJET 01</div>
+                        <h3>Gestion d'une école</h3>
+                        <p>
+                            Application de gestion des élèves, des notes
+                            et des bulletins scolaires.
+                        </p>
+                        <div class="project-tags">
+                            <span>PHP</span><span>MySQL</span><span>Bootstrap</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">PROJET 02</div>
+                        <h3>Supervision informatique</h3>
+                        <p>
+                            Laboratoire de découverte de Linux, des serveurs
+                            et de la supervision des équipements.
+                        </p>
+                        <div class="project-tags">
+                            <span>Linux</span><span>Serveurs</span><span>Zabbix</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">PROJET 03</div>
+                        <h3>Mon portfolio web</h3>
+                        <p>
+                            Site personnel présentant mon parcours,
+                            mes compétences et mes projets informatiques.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="container contact-content">
+                <p class="eyebrow">ÉCHANGEONS</p>
+                <h2 class="section-title">Me contacter</h2>
+                <p>
+                    Tu souhaites discuter d'un projet informatique,
+                    d'une collaboration ou d'une opportunité professionnelle ?
+                </p>
+
+                <div class="contact-buttons">
+                    <a class="btn btn-primary"
+                       href="mailto:josuetigo7@gmail.com">
+                        M'envoyer un e-mail
+                    </a>
+                    <button class="btn btn-outline" id="copyEmail"
+                            data-email="josuetigo7@gmail.com">
+                        Copier mon e-mail
+                    </button>
+                </div>
+                <p id="copyMessage" class="copy-message" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© <span id="currentYear"></span> Josué TIGO — Mon Portfolio</p>
+            <a href="#accueil">Retour en haut ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
